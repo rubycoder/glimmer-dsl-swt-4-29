@@ -404,6 +404,7 @@ items <= {model: model, property: property, on_read: ->(v) {}, on_write: ->(v) {
 items <=> {model: model, attribute: :property, on_read: ->(v) {}, on_write: ->(v) {}} # bidirectional
 items <= {model: model, attribute: property, on_read: ->(v) {}, on_write: ->(v) {}} # ready-only
 - Improve tree databinding so that replacing content array value updates the tree (instead of clearing and rereading elements)
+- Support a declarative simple way of adding support for listeners on a custom widget (`Glimmer::UI::CustomWidget`)
 - Consider need for a startup progress dialog (with Glimmer branding)
 - Externalize constants to make easily configurable
 - Check for need to recursively call dispose on widget descendants
