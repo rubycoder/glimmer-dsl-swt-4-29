@@ -4,6 +4,7 @@ Here is a list of tasks to do (moved to [CHANGELOG.md](CHANGELOG.md) once done).
 
 ## Next
 
+- Hello, Pixel! example demonstrating pixel graphics
 - Upgrade to rouge 4.x (e.g. 4.1.3) after upgrading JRuby to a version compatible with Ruby 2.7+
 - Fix window dimension issues on Linux with some sample games like Tetris and Connect 4
 - Rename `ext` directory to `glimmer-dsl-swt-ext` to avoid conflict with other gems having `ext`
